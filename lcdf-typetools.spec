@@ -1,5 +1,5 @@
 Summary:	LCDF Typetools - some programs for manipulating Type 1 fonts
-Summary(pl):	LCDF Typetools - programy do obróbki fontów Type 1
+Summary(pl.UTF-8):   LCDF Typetools - programy do obrÃ³bki fontÃ³w Type 1
 Name:		lcdf-typetools
 Version:	2.43
 Release:	1
@@ -20,11 +20,11 @@ OpenType fonts. LCDF Typetools includes the mmafm and mmpfb programs,
 which were formerly distributed as part of a different package
 (mminstance).
 
-%description -l pl
-Pakiet LCDF Typetools zawiera kilka programów do obróbki fontów w
+%description -l pl.UTF-8
+Pakiet LCDF Typetools zawiera kilka programÃ³w do obrÃ³bki fontÃ³w w
 formacie PostScript Type 1, Type 1 multiple master i podobnych do
-postscriptowych fontów OpenType. LCDF Typetools zawiera programy
-mmafm i mmpfb, które kiedy¶ by³y dostêpne jako czê¶æ innego pakietu
+postscriptowych fontÃ³w OpenType. LCDF Typetools zawiera programy
+mmafm i mmpfb, ktÃ³re kiedyÅ› byÅ‚y dostÄ™pne jako czÄ™Å›Ä‡ innego pakietu
 (mminstance).
 
 %prep
