@@ -1,5 +1,5 @@
 Summary:	LCDF Typetools - some programs for manipulating Type 1 fonts
-Summary(pl.UTF-8):   LCDF Typetools - programy do obróbki fontów Type 1
+Summary(pl.UTF-8):	LCDF Typetools - programy do obróbki fontów Type 1
 Name:		lcdf-typetools
 Version:	2.43
 Release:	1
