@@ -1,12 +1,12 @@
 Summary:	LCDF Typetools - some programs for manipulating Type 1 fonts
 Summary(pl.UTF-8):	LCDF Typetools - programy do obróbki fontów Type 1
 Name:		lcdf-typetools
-Version:	2.69
+Version:	2.85
 Release:	1
 License:	GPL
 Group:		Applications/Publishing
 Source0:	http://www.lcdf.org/~eddietwo/type/%{name}-%{version}.tar.gz
-# Source0-md5:	ca478c5c70975f2f2c01dc77c0e362a7
+# Source0-md5:	e9eefde14131dfcc5add91b92fcb7627
 URL:		http://www.lcdf.org/~eddietwo/type/#typetools
 BuildRequires:	kpathsea-devel
 BuildRequires:	libstdc++-devel
@@ -46,6 +46,26 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc NEWS ONEWS README
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/cfftot1
+%attr(755,root,root) %{_bindir}/mmafm
+%attr(755,root,root) %{_bindir}/mmpfb
+%attr(755,root,root) %{_bindir}/otfinfo
+%attr(755,root,root) %{_bindir}/otftotfm
+%attr(755,root,root) %{_bindir}/t1dotlessj
+%attr(755,root,root) %{_bindir}/t1lint
+%attr(755,root,root) %{_bindir}/t1rawafm
+%attr(755,root,root) %{_bindir}/t1reencode
+%attr(755,root,root) %{_bindir}/t1testpage
+%attr(755,root,root) %{_bindir}/ttftotype42
 %{_datadir}/%{name}
-%{_mandir}/man1/*
+%{_mandir}/man1/cfftot1.1*
+%{_mandir}/man1/mmafm.1*
+%{_mandir}/man1/mmpfb.1*
+%{_mandir}/man1/otfinfo.1*
+%{_mandir}/man1/otftotfm.1*
+%{_mandir}/man1/t1dotlessj.1*
+%{_mandir}/man1/t1lint.1*
+%{_mandir}/man1/t1rawafm.1*
+%{_mandir}/man1/t1reencode.1*
+%{_mandir}/man1/t1testpage.1*
+%{_mandir}/man1/ttftotype42.1*
