@@ -1,12 +1,12 @@
 Summary:	LCDF Typetools - some programs for manipulating Type 1 fonts
 Summary(pl.UTF-8):	LCDF Typetools - programy do obróbki fontów Type 1
 Name:		lcdf-typetools
-Version:	2.92
+Version:	2.95
 Release:	1
 License:	GPL v2+
 Group:		Applications/Publishing
 Source0:	http://www.lcdf.org/~eddietwo/type/%{name}-%{version}.tar.gz
-# Source0-md5:	1977c78d564ee152f38729e2e9a9bbc4
+# Source0-md5:	f6f4fe6be3bea237e5547158cf333388
 URL:		http://www.lcdf.org/~eddietwo/type/#typetools
 BuildRequires:	kpathsea-devel
 BuildRequires:	libstdc++-devel
